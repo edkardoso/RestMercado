@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiMercado", "ApiMercado\ApiMercado.csproj", "{9FC53E58-88B7-4C85-869F-56DB59DE0B79}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mercado.Domain", "Mercado.Domain\Mercado.Domain.csproj", "{457FDAFE-4D49-4380-A350-FD4C60A18FCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mercado.Services", "Mercado.Services\Mercado.Services.csproj", "{F1E9B021-1F01-4C3F-8909-64A9B2B2318A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{574D6DB5-D993-4D77-8DD2-CE898AF4245D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{9FC53E58-88B7-4C85-869F-56DB59DE0B79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FC53E58-88B7-4C85-869F-56DB59DE0B79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FC53E58-88B7-4C85-869F-56DB59DE0B79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{457FDAFE-4D49-4380-A350-FD4C60A18FCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{457FDAFE-4D49-4380-A350-FD4C60A18FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{457FDAFE-4D49-4380-A350-FD4C60A18FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{457FDAFE-4D49-4380-A350-FD4C60A18FCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1E9B021-1F01-4C3F-8909-64A9B2B2318A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1E9B021-1F01-4C3F-8909-64A9B2B2318A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1E9B021-1F01-4C3F-8909-64A9B2B2318A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1E9B021-1F01-4C3F-8909-64A9B2B2318A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{574D6DB5-D993-4D77-8DD2-CE898AF4245D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{574D6DB5-D993-4D77-8DD2-CE898AF4245D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{574D6DB5-D993-4D77-8DD2-CE898AF4245D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{574D6DB5-D993-4D77-8DD2-CE898AF4245D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
