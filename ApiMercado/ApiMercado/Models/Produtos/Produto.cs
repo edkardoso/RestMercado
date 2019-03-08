@@ -10,6 +10,7 @@ namespace ApiMercado.Models.Produtos
         public int Id { get; private set; }
         public string NCM { get; private set; }
         public string Descricao { get; private set; }
+        public string Unidade { get; set; }
         public decimal PrecoAtual { get; private set; }
 
 
